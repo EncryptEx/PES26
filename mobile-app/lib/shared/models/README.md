@@ -1,0 +1,1 @@
+Borrar document en començar. Només es per definir l'estructura
