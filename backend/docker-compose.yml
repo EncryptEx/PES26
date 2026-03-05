@@ -2,7 +2,7 @@ services:
   db:
     image: postgres:alpine
     volumes:
-        -   /
+        -   postgres_data:/var/lib/postgresql/data
     env_file:
         -  .env
     ports:
