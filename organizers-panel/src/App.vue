@@ -15,13 +15,6 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
-
-.container-prova{
-  height: 30px;
-  width: 100%;
-  background-color: red;
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;
