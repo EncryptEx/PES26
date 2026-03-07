@@ -1,0 +1,17 @@
+{
+    "menu":{
+        "dashboard": "Dashboard",
+        "my-parties": "My Parties",
+        "description": "Organizer Portal"
+    },
+    "actions": {
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "not-found":{
+        "title": "The party is {outstanding}",
+        "outstanding": "over",
+        "description-1": "Looks like the beat dropped and we lost the track.",
+        "description-2": "Let's get you back to the dance floor."
+    }
+}

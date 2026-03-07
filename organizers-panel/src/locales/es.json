@@ -1,0 +1,17 @@
+{
+    "menu":{
+        "dashboard": "Dashboard",
+        "my-parties": "Mis fiestas",
+        "description": "Área de organizadores"
+    },
+    "actions": {
+      "save": "Guardar",
+      "cancel": "Cancelar"
+    },
+    "not-found":{
+        "title": "¡{outstanding} la fiesta!",
+        "outstanding": "Se acabó",
+        "description-1": "Parece que el beat se cayó y perdimos la pista.",
+        "description-2": "Vuelve a la pista de baile."
+    }
+}

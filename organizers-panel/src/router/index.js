@@ -1,5 +1,4 @@
-/* NOMES AL SERVIDOR, NO EL REP EL CLIENT. 
-* ES PER SABER PER QUINA RUTA HA DE CRIDAR QUIN COMPONENT */
+/* ES PER SABER PER QUINA RUTA HA DE CRIDAR QUIN COMPONENT */
 
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
@@ -13,9 +12,30 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
+      path: '/dashboard',
+      name: 'dashboard',
+      component: () => import('../views/DashboardView.vue')
+    },
+    {
+      path: '/my-parties',
+      name: 'my-parties',
+      component: () => import('../views/MyPartiesView.vue')
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('../views/LoginView.vue'),
+      meta: {
+        hideSidebar: true
+      }
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: () => import('../views/NotFoundView.vue'),
+      meta: {
+        hideSidebar: true
+      }
     }
   ]
 })

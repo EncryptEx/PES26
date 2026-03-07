@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 /* Traduïm la teva configuració al format modern de Tailwind v4 */
 @theme {
@@ -22,3 +26,14 @@
 
 /* Traduïm el teu darkMode: "class" per poder canviar de tema manualment */
 @custom-variant dark (&:is(.dark *));
+
+@layer components {
+  @keyframes glow-primary {
+    0% { text-shadow: 0 0 10px #00f2ff, 0 0 20px #00f2ff; }
+    100% { text-shadow: 0 0 20px #00f2ff, 0 0 40px #00f2ff, 0 0 60px #00a2ab; }
+  }
+
+  .animate-glow-primary {
+    animation: glow-pink 1s ease-in-out infinite alternate;
+  }
+}

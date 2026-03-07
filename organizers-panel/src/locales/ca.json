@@ -1,0 +1,17 @@
+{
+    "menu":{
+        "dashboard": "Dashboard",
+        "my-parties": "Les meves Festes",
+        "description": "Àrea d’organitzadors"
+    },
+    "actions": {
+      "save": "Desar",
+      "cancel": "Cancel·lar"
+    },
+    "not-found":{
+        "title": "{outstanding} la festa!",
+        "outstanding": "S'ha acabat",
+        "description-1": "Sembla que ha caigut el beat i hem perdut la pista.",
+        "description-2": "Torna a la pista de ball."
+    }
+}
